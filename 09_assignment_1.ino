@@ -146,16 +146,6 @@ float small(float a,float b){
     return a;
   else
     return b;
-     }
-int average(int n){
-  int middle;
-  if(n%2==1){//N이 홀수
-    middle = (n-1)/2;  
-  }
-  else{
-    middle = ((n-1)/2 + ((n-1)/2+1))/2;
-  }
-  return  middle;
-}
+    }
 
  
