@@ -34,10 +34,9 @@
 
 // PID parameters
 #define _KP 1.3//4  [3039] 비례 제어의 상수 값
-#define _KD 38.5 //35.5
+#define _KD 91.5 //35.5
 #define _KI 0.3
-#define _ITERM_MAX 10
-
+#define _ITERM_MAX 20
 
 //////////////////////
 // global variables //
