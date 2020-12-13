@@ -33,7 +33,7 @@
 #define _INTERVAL_SERIAL 100       //[3030]시리얼 플로터 갱신간격
 
 // PID parameters
-#define _KP 1.3//4  [3039] 비례 제어의 상수 값
+#define _KP 1.3//1.3  [3039] 비례 제어의 상수 값
 #define _KD 91.5 //35.5
 #define _KI 0.3
 #define _ITERM_MAX 20
@@ -99,7 +99,7 @@ interval 반복횟수*INTERVAL_SERVO=
 _SERVO_ANGLE만큼 돌아가는데 걸리는 시간 
 */
 event_dist = false;event_serial = false; event_servo = false;
-iterm = 0;
+iterm = 0,dterm=0 ; pterm=0;
 
  
  
